@@ -1,0 +1,11 @@
+<!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Évalys a déménagé</title><meta http-equiv="refresh" content="10;url=https://mk-master974.github.io/evalys/">
+<style>body{font:17px/1.5 system-ui,sans-serif;max-width:560px;margin:0 auto;padding:32px 20px;color:#16202B;background:#EEF2F6}a{color:#1F4E79;font-weight:700}</style></head><body>
+<h1>Évalys a déménagé</h1><p>Nouvelle adresse : <a href="https://mk-master974.github.io/evalys/">https://mk-master974.github.io/evalys/</a></p>
+<p>Si une ancienne icône Évalys ou « Bilan Kiné » est encore sur ton appareil, supprime-la, puis installe l'appli depuis la nouvelle adresse.</p><p id="st">Nettoyage de l'ancienne version…</p>
+<script>(async () => { try {
+  const here = new URL('./', location.href).href;
+  if ('serviceWorker' in navigator) { for (const r of await navigator.serviceWorker.getRegistrations()) if (r.scope === here) await r.unregister(); }
+  if (window.caches) { for (const k of await caches.keys()) if (k.startsWith('pbk-')) await caches.delete(k); }
+  document.getElementById('st').textContent = 'Ancienne version effacée de cet appareil.';
+} catch (e) { document.getElementById('st').textContent = ''; } setTimeout(() => location.replace('https://mk-master974.github.io/evalys/'), 2500); })();</script></body></html>
